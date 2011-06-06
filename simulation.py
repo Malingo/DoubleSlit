@@ -12,10 +12,11 @@ class Simulation:
         also provided with a reference to the main interface object, although
         using this reference should never be necessary. """
 
-        self.width= 0
-        self.distance= 0
-        self.mass= 0
-	self.velocity= 0
+        self.width = 0
+        self.distance = 0
+        self.mass = 0
+        self.velocity = 0
+        self.current = 0
 
     def update(self, parameters):
         """ This method is called by the interface whenever a parameter is
@@ -26,7 +27,8 @@ class Simulation:
         self.width = parameters[0]
         self.distance = parameters[1]
         self.mass = parameters[2]
-	self.velocity = parameters[3]
+        self.velocity = parameters[3]
+        self.current = parameters[4]
 
     def plot(self, independent):
         """ This method is called by the graphical interface whenever the
@@ -35,17 +37,17 @@ class Simulation:
         dependent variable (i.e. y). """
 
         x = independent
-	a = self.width
-	b = self.distance
-	inot = 1
-	h = 6.62606896e-34
-	hbar = h / (2 * pi)
-	k = self.mass * self.velocity / hbar
-	angle = 0 
-	u = (a * k / 2) * (sin(angle) + x)	
-	v = (b / a) * u
-	
-	return inot * (sin(u) / u)**2 * (cos(v)**2)
+        a = self.width
+        b = self.distance
+        inot = 1
+        h = 6.62606896e-34
+        hbar = h / (2 * pi)
+        k = self.mass * self.velocity / hbar
+        angle = 0 
+        u = (a * k / 2) * (sin(angle) + x)      
+        v = (b / a) * u
+        
+        return inot * (sin(u) / u)**2 * (cos(v)**2)
 
 # If this is run as a standalone script, then read parameters from the command
 # line and display the resulting graph.  

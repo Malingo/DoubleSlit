@@ -17,7 +17,7 @@ class Parameter:
         self.lowest = lowest
         self.highest = highest
 
-	#ksk following cast to integer in original code
+        #ksk following cast to integer in original code
         if default is None: self.default = (lowest + highest) / 2
         else:               self.default = default
 
@@ -31,8 +31,7 @@ class Parameter:
         name = gtk.Label(self.title)
         name.set_alignment(0, 0.5)
 
-        self.adjustment = gtk.Adjustment(self.default,
-                self.lowest, self.highest)
+        self.adjustment = gtk.Adjustment(self.default, self.lowest, self.highest)
 
         scale = gtk.HScale(self.adjustment)
         scale.set_draw_value(False)

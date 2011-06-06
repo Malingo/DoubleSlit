@@ -24,14 +24,13 @@ if __name__ == "__main__":
     # ...and add a set of slider controls to it.
     electronMass= 9.10938188e-31 # Kg
     c = 299792458
-    #width= Parameter("Width of Slits", 0, 1e-12, 0.5e-12)
-    #distance= Parameter("Distance Between Slits", 0, 10e-12, 5e-12)
-    width= Parameter("Width of Slits", 1e-50, 1e-12)
-    distance= Parameter("Distance Between Slits", 1e-50, 10e-12)
-    mass = Parameter("Particle Mass", 0.01*electronMass, 10*electronMass, electronMass)
-    velocity= Parameter("Velocity of the Particle", 0, c, 0.9*c)
-
-    controls.add(width, distance, mass, velocity)
+    width = Parameter("Width of slits", 1e-50, 1e-12)
+    distance = Parameter("Distance between slits", 1e-50, 10e-12)
+    mass = Parameter("Particle mass", 0.01*electronMass, 10*electronMass, electronMass)
+    velocity = Parameter("Particle velocity", 0, c, 0.9*c)
+    current = Parameter("Current in solenoid", -10, 10, 0)
+    
+    controls.add(width, distance, mass, velocity, current)
 
     # Hook up the interface components and begin the event loop.
     main.setup(display, controls, simulation)

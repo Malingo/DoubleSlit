@@ -16,10 +16,11 @@ class Interface:
         self.display = None
         self.simulation = None
 
-        self.width= None
-        self.distance= None
-        self.mass= None
-	self.velocity= None
+        self.width = None
+        self.distance = None
+        self.mass = None
+        self.velocity = None
+        self.current = None
 
     def setup(self, display, controls, simulation):
         self.display = display
@@ -84,8 +85,7 @@ class Controls:
             parameter.setup(table, row, callback)
 
     def values(self):
-        return [parameter.adjustment.get_value()
-                for parameter in self.parameters]
+        return [parameter.adjustment.get_value() for parameter in self.parameters]
 
 class Display:
     """ This class is responsible for rendering the graph in the upper portion
@@ -94,6 +94,8 @@ class Display:
 
     # This is a color I chose to perfectly match the background of the rest of
     # the interface.  It might only work on my computer.
+    # Malingo: Yes, it only works on your computer. It depends on what theme
+    # the user has chosen.
     background = "#edecea" 
 
     def __init__(self, main):
@@ -124,7 +126,7 @@ class Display:
         # The tick labels are formatted using LaTeX.  This makes it possible
         # to use symbols like pi.
         axes.set_xticks((-pi, 0, pi))
-        axes.set_xticklabels((r"-pi", "0", r"pi"))
+        axes.set_xticklabels((r"-\pi", "0", r"\pi"))
         axes.set_xlim(-pi - 0.25, pi + 0.25)
 
         axes.set_yticks((0, 1))
