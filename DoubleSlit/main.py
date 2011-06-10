@@ -5,6 +5,7 @@ import os, sys
 from interface import Interface, Display, Controls
 from parameters import PercentParameter, Parameter
 from simulation import Simulation
+from numpy import pi
 
 # Return immediately if this is being imported in another module.
 if __name__ == "__main__":
@@ -28,9 +29,9 @@ if __name__ == "__main__":
     distance = Parameter("Distance between slits", 1e-50, 10e-12)
     mass = Parameter("Particle mass", 0.01*electronMass, 10*electronMass, electronMass)
     velocity = Parameter("Particle velocity", 0, c, 0.9*c)
-    current = Parameter("Current in solenoid", -10, 10, 0)
-    
-    controls.add(width, distance, mass, velocity, current)
+    flux = Parameter("B-flux through solenoid", -pi, pi, 0)
+
+    controls.add(width, distance, mass, velocity, flux)
 
     # Hook up the interface components and begin the event loop.
     main.setup(display, controls, simulation)

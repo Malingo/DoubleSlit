@@ -43,9 +43,8 @@ class Simulation:
         h = 6.62606896e-34
         hbar = h / (2 * pi)
         k = self.mass * self.velocity / hbar
-        angle = 0
-        # angle = q * self.flux / hbar
-        u = (a * k / 2) * (sin(angle) + x)
+        phase = self.flux
+        u = (a * k / 2) * (x - phase)
         v = (b / a) * u
 
         return inot * (sin(u) / u)**2 * (cos(v)**2)
