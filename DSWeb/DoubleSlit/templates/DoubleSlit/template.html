@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<title>
+			Double Slit Simulator
+		</title>
+	</head>
+	<body>
+		<p>
+			Graph:
+		</p>
+		<ul>
+			{% for xy in graph %}
+				<li>{{ xy.x }} --&gt; {{ xy.y }};</li>
+			{% empty %}
+				<li>Graph empty.</li>
+			{% endfor %}
+		</ul>
+	</body>
+</html>
