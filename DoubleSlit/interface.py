@@ -20,7 +20,7 @@ class Interface:
         self.distance = None
         self.mass = None
         self.velocity = None
-        self.current = None
+        self.flux = None
 
     def setup(self, display, controls, simulation):
         self.display = display
@@ -94,9 +94,9 @@ class Display:
 
     # This is a color I chose to perfectly match the background of the rest of
     # the interface.  It might only work on my computer.
-    # Malingo: Yes, it only works on your computer. It depends on what theme
-    # the user has chosen.
-    background = "#edecea" 
+    # Malingo: Yes, it only works on your computer. It depends on what gtk
+    # theme the user has chosen.
+    background = "#edecea"
 
     def __init__(self, main):
         self.main = main

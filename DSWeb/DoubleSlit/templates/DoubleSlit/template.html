@@ -1,3 +1,4 @@
+<!--
 <html>
 	<head>
 		<title>
@@ -10,10 +11,40 @@
 		</p>
 		<ul>
 			{% for xy in graph %}
-				<li>{{ xy.x }} --&gt; {{ xy.y }};</li>
+				<li>{{ xy.x }} -&gt; {{ xy.y }};</li>
 			{% empty %}
 				<li>Graph empty.</li>
 			{% endfor %}
 		</ul>
+	</body>
+</html>
+-->
+<html>
+	<head>
+		<title>
+			Double Slit Simulator
+		</title>
+		<script type="text/javascript">
+			function draw(){
+				var canvas = document.getElementById('graph');
+				if (canvas.getContext) {
+					var graph = canvas.getContext('2d');
+					graph.beginPath();
+					graph.moveTo({% first_point.x %},{% first_point.y %});
+					{% for xy in graph %}
+						graph.lineTo({%xy.x%},{%xy.y%})
+					{% empty %}
+						<li>Graph empty.</li>
+					{% endfor %}
+					graph.stroke();
+				}
+			}
+		</script>
+		<style type="text/css">
+			canvas { border: 1px solid black; }
+		</style>
+	</head>
+	<body onload="draw();">
+		<canvas id="graph" width="500" height="300"></canvas>
 	</body>
 </html>
