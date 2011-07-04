@@ -5,13 +5,9 @@
 	<key>EmbeddedEditorHidden:Noah</key>
 	<false/>
 	<key>ExpandedEditorWidth:Noah:displays([(0, 0), (1280, 800)])</key>
-	<integer>641</integer>
+	<integer>905</integer>
 	<key>ExpandedItems:Noah</key>
-	<array>
-		<string>C66C5C7A-FC43-4858-8933-F1F2EEF2862A</string>
-		<string>07E38067-8F4C-431E-85C7-74321493F407</string>
-		<string>3C3E92F8-291D-4A67-91B3-422D38180814</string>
-	</array>
+	<array/>
 	<key>FileFilterID:Noah</key>
 	<string>msng</string>
 	<key>OpenDocuments:Noah</key>
@@ -21,8 +17,8 @@
 			<data>
 			AAAAAAGsAAIAAAxPZG9tJ3MgU3BpcmUAAAAAAAAAAAAAAAAAAADD
 			UszhSCsAAADXeTkKaW5kZXguaHRtbAAAAAAAAAAAAAAAAAAAAAAA
-			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANiI
-			pcoWsKdURVhUUipjaP////8AAAkgAAAAAAAAAAAAAAAAAAAABURT
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANo2
+			XMoWsKdURVhUUipjaP////8AAAkgAAAAAAAAAAAAAAAAAAAABURT
 			V2ViAAAQAAgAAMNTBSEAAAARAAgAAMoW6OcAAAABABgA13k5AML7
 			JwBt5kgACLqIAAi6cQAAeYoAAgBKT2RvbSdzIFNwaXJlOlVzZXJz
 			Ok5vYWg6RG9jdW1lbnRzOkN1cnJlbnQgcHJvamVjdHM6SG9ub3Jz
@@ -44,22 +40,22 @@
 			<key>AliasData</key>
 			<data>
 			AAAAAAHGAAIAAAxPZG9tJ3MgU3BpcmUAAAAAAAAAAAAAAAAAAADD
-			UszhSCsAAADXeQYNc2ltdWxhdGlvbi5weQAAAAAAAAAAAAAAAAAA
-			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANfO
-			Q8nu+d9URVhUAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAACkRv
-			dWJsZVNsaXQAEAAIAADDUwUhAAAAEQAIAADJ7zIfAAAAAQAYANd5
-			BgDC+ycAbeZIAAi6iAAIunEAAHmKAAIAUk9kb20ncyBTcGlyZTpV
-			c2VyczpOb2FoOkRvY3VtZW50czpDdXJyZW50IHByb2plY3RzOkhv
-			bm9yczpEb3VibGVTbGl0OnNpbXVsYXRpb24ucHkADgAcAA0AcwBp
-			AG0AdQBsAGEAdABpAG8AbgAuAHAAeQAPABoADABPAGQAbwBtACcA
+			UszhSCsAAADYXEcOZG91Ymxlc2xpdC5jc3MAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANo1
+			QsoetvpURVhUUipjaP////8AAAkgAAAAAAAAAAAAAAAAAAAAA2Nz
+			cwAAEAAIAADDUwUhAAAAEQAIAADKHu86AAAAAQAcANhcRwDXeTkA
+			wvsnAG3mSAAIuogACLpxAAB5igACAFJPZG9tJ3MgU3BpcmU6VXNl
+			cnM6Tm9haDpEb2N1bWVudHM6Q3VycmVudCBwcm9qZWN0czpIb25v
+			cnM6RFNXZWI6Y3NzOmRvdWJsZXNsaXQuY3NzAA4AHgAOAGQAbwB1
+			AGIAbABlAHMAbABpAHQALgBjAHMAcwAPABoADABPAGQAbwBtACcA
 			cwAgAFMAcABpAHIAZQASAEVVc2Vycy9Ob2FoL0RvY3VtZW50cy9D
-			dXJyZW50IHByb2plY3RzL0hvbm9ycy9Eb3VibGVTbGl0L3NpbXVs
-			YXRpb24ucHkAABMAAS8AABUAAgAL//8AAA==
+			dXJyZW50IHByb2plY3RzL0hvbm9ycy9EU1dlYi9jc3MvZG91Ymxl
+			c2xpdC5jc3MAABMAAS8AABUAAgAL//8AAA==
 			</data>
 			<key>FileURL</key>
-			<string>file://localhost/Users/Noah/Documents/Current%20projects/Honors/DoubleSlit/simulation.py</string>
+			<string>file://localhost/Users/Noah/Documents/Current%20projects/Honors/DSWeb/css/doubleslit.css</string>
 			<key>RelativePath</key>
-			<string>../DoubleSlit/simulation.py</string>
+			<string>./css/doubleslit.css</string>
 			<key>TypeID</key>
 			<string>_CFileLocator</string>
 			<key>Version</key>
@@ -68,75 +64,23 @@
 		<dict>
 			<key>AliasData</key>
 			<data>
-			AAAAAAHAAAIAAAxPZG9tJ3MgU3BpcmUAAAAAAAAAAAAAAAAAAADD
-			UszhSCsAAADXeTkPc2FtcGxlZGF0YS5qc29uAAAAAAAAAAAAAAAA
-			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANhe
-			ecoasbpURVhUUipjaP////8AAAkgAAAAAAAAAAAAAAAAAAAABURT
-			V2ViAAAQAAgAAMNTBSEAAAARAAgAAMoa6foAAAABABgA13k5AML7
-			JwBt5kgACLqIAAi6cQAAeYoAAgBPT2RvbSdzIFNwaXJlOlVzZXJz
+			AAAAAAG+AAIAAAxPZG9tJ3MgU3BpcmUAAAAAAAAAAAAAAAAAAADD
+			UszhSCsAAADYXg4NZG91Ymxlc2xpdC5qcwAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANo1
+			JsoetX5URVhUUipjaP////8AAAkgAAAAAAAAAAAAAAAAAAAAAmpz
+			ABAACAAAw1MFIQAAABEACAAAyh7tvgAAAAEAHADYXg4A13k5AML7
+			JwBt5kgACLqIAAi6cQAAeYoAAgBQT2RvbSdzIFNwaXJlOlVzZXJz
 			Ok5vYWg6RG9jdW1lbnRzOkN1cnJlbnQgcHJvamVjdHM6SG9ub3Jz
-			OkRTV2ViOnNhbXBsZWRhdGEuanNvbgAADgAgAA8AcwBhAG0AcABs
-			AGUAZABhAHQAYQAuAGoAcwBvAG4ADwAaAAwATwBkAG8AbQAnAHMA
-			IABTAHAAaQByAGUAEgBCVXNlcnMvTm9haC9Eb2N1bWVudHMvQ3Vy
-			cmVudCBwcm9qZWN0cy9Ib25vcnMvRFNXZWIvc2FtcGxlZGF0YS5q
-			c29uABMAAS8AABUAAgAL//8AAA==
+			OkRTV2ViOmpzOmRvdWJsZXNsaXQuanMADgAcAA0AZABvAHUAYgBs
+			AGUAcwBsAGkAdAAuAGoAcwAPABoADABPAGQAbwBtACcAcwAgAFMA
+			cABpAHIAZQASAENVc2Vycy9Ob2FoL0RvY3VtZW50cy9DdXJyZW50
+			IHByb2plY3RzL0hvbm9ycy9EU1dlYi9qcy9kb3VibGVzbGl0Lmpz
+			AAATAAEvAAAVAAIAC///AAA=
 			</data>
 			<key>FileURL</key>
-			<string>file://localhost/Users/Noah/Documents/Current%20projects/Honors/DSWeb/sampledata.json</string>
+			<string>file://localhost/Users/Noah/Documents/Current%20projects/Honors/DSWeb/js/doubleslit.js</string>
 			<key>RelativePath</key>
-			<string>./sampledata.json</string>
-			<key>TypeID</key>
-			<string>_CFileLocator</string>
-			<key>Version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>AliasData</key>
-			<data>
-			AAAAAAIIAAIAAAxPZG9tJ3MgU3BpcmUAAAAAAAAAAAAAAAAAAADD
-			UszhSCsAAADXv8wNdGVtcGxhdGUuaHRtbAAAAAAAAAAAAAAAAAAA
-			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANfR
-			RcoUZSRURVhUUipjaP////8AAAkgAAAAAAAAAAAAAAAAAAAACkRv
-			dWJsZVNsaXQAEAAIAADDUwUhAAAAEQAIAADKFJ1kAAAAAQAkANe/
-			zADXv8sA17erANd5OQDC+ycAbeZIAAi6iAAIunEAAHmKAAIAbU9k
-			b20ncyBTcGlyZTpVc2VyczpOb2FoOkRvY3VtZW50czpDdXJyZW50
-			IHByb2plY3RzOkhvbm9yczpEU1dlYjpEb3VibGVTbGl0OnRlbXBs
-			YXRlczpEb3VibGVTbGl0OnRlbXBsYXRlLmh0bWwAAA4AHAANAHQA
-			ZQBtAHAAbABhAHQAZQAuAGgAdABtAGwADwAaAAwATwBkAG8AbQAn
-			AHMAIABTAHAAaQByAGUAEgBgVXNlcnMvTm9haC9Eb2N1bWVudHMv
-			Q3VycmVudCBwcm9qZWN0cy9Ib25vcnMvRFNXZWIvRG91YmxlU2xp
-			dC90ZW1wbGF0ZXMvRG91YmxlU2xpdC90ZW1wbGF0ZS5odG1sABMA
-			AS8AABUAAgAL//8AAA==
-			</data>
-			<key>FileURL</key>
-			<string>file://localhost/Users/Noah/Documents/Current%20projects/Honors/DSWeb/DoubleSlit/templates/DoubleSlit/template.html</string>
-			<key>RelativePath</key>
-			<string>./DoubleSlit/templates/DoubleSlit/template.html</string>
-			<key>TypeID</key>
-			<string>_CFileLocator</string>
-			<key>Version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>AliasData</key>
-			<data>
-			AAAAAAGuAAIAAAxPZG9tJ3MgU3BpcmUAAAAAAAAAAAAAAAAAAADD
-			UszhSCsAAADXeQYHbWFpbi5weQAAAAAAAAAAAAAAAAAAAAAAAAAA
-			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANfO
-			OMnu+d9URVhUAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAACkRv
-			dWJsZVNsaXQAEAAIAADDUwUhAAAAEQAIAADJ7zIfAAAAAQAYANd5
-			BgDC+ycAbeZIAAi6iAAIunEAAHmKAAIATE9kb20ncyBTcGlyZTpV
-			c2VyczpOb2FoOkRvY3VtZW50czpDdXJyZW50IHByb2plY3RzOkhv
-			bm9yczpEb3VibGVTbGl0Om1haW4ucHkADgAQAAcAbQBhAGkAbgAu
-			AHAAeQAPABoADABPAGQAbwBtACcAcwAgAFMAcABpAHIAZQASAD9V
-			c2Vycy9Ob2FoL0RvY3VtZW50cy9DdXJyZW50IHByb2plY3RzL0hv
-			bm9ycy9Eb3VibGVTbGl0L21haW4ucHkAABMAAS8AABUAAgAL//8A
-			AA==
-			</data>
-			<key>FileURL</key>
-			<string>file://localhost/Users/Noah/Documents/Current%20projects/Honors/DoubleSlit/main.py</string>
-			<key>RelativePath</key>
-			<string>../DoubleSlit/main.py</string>
+			<string>./js/doubleslit.js</string>
 			<key>TypeID</key>
 			<string>_CFileLocator</string>
 			<key>Version</key>
@@ -146,121 +90,22 @@
 			<key>AliasData</key>
 			<data>
 			AAAAAAHCAAIAAAxPZG9tJ3MgU3BpcmUAAAAAAAAAAAAAAAAAAADD
-			UszhSCsAAADXeQYMaW50ZXJmYWNlLnB5AAAAAAAAAAAAAAAAAAAA
-			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANfl
-			xMnu+d9URVhUAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAACkRv
-			dWJsZVNsaXQAEAAIAADDUwUhAAAAEQAIAADJ7zIfAAAAAQAYANd5
-			BgDC+ycAbeZIAAi6iAAIunEAAHmKAAIAUU9kb20ncyBTcGlyZTpV
-			c2VyczpOb2FoOkRvY3VtZW50czpDdXJyZW50IHByb2plY3RzOkhv
-			bm9yczpEb3VibGVTbGl0OmludGVyZmFjZS5weQAADgAaAAwAaQBu
-			AHQAZQByAGYAYQBjAGUALgBwAHkADwAaAAwATwBkAG8AbQAnAHMA
+			UszhSCsAAADYXEcNanF1ZXJ5LXVpLmNzcwAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANoy
+			AcoelCBURVhUAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAAA2Nz
+			cwAAEAAIAADDUwUhAAAAEQAIAADKHsxgAAAAAQAcANhcRwDXeTkA
+			wvsnAG3mSAAIuogACLpxAAB5igACAFFPZG9tJ3MgU3BpcmU6VXNl
+			cnM6Tm9haDpEb2N1bWVudHM6Q3VycmVudCBwcm9qZWN0czpIb25v
+			cnM6RFNXZWI6Y3NzOmpxdWVyeS11aS5jc3MAAA4AHAANAGoAcQB1
+			AGUAcgB5AC0AdQBpAC4AYwBzAHMADwAaAAwATwBkAG8AbQAnAHMA
 			IABTAHAAaQByAGUAEgBEVXNlcnMvTm9haC9Eb2N1bWVudHMvQ3Vy
-			cmVudCBwcm9qZWN0cy9Ib25vcnMvRG91YmxlU2xpdC9pbnRlcmZh
-			Y2UucHkAEwABLwAAFQACAAv//wAA
+			cmVudCBwcm9qZWN0cy9Ib25vcnMvRFNXZWIvY3NzL2pxdWVyeS11
+			aS5jc3MAEwABLwAAFQACAAv//wAA
 			</data>
 			<key>FileURL</key>
-			<string>file://localhost/Users/Noah/Documents/Current%20projects/Honors/DoubleSlit/interface.py</string>
+			<string>file://localhost/Users/Noah/Documents/Current%20projects/Honors/DSWeb/css/jquery-ui.css</string>
 			<key>RelativePath</key>
-			<string>../DoubleSlit/interface.py</string>
-			<key>TypeID</key>
-			<string>_CFileLocator</string>
-			<key>Version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>AliasData</key>
-			<data>
-			AAAAAAHGAAIAAAxPZG9tJ3MgU3BpcmUAAAAAAAAAAAAAAAAAAADD
-			UszhSCsAAADXeQYNcGFyYW1ldGVycy5weQAAAAAAAAAAAAAAAAAA
-			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANd1
-			AMnu+d9URVhUAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAACkRv
-			dWJsZVNsaXQAEAAIAADDUwUhAAAAEQAIAADJ7zIfAAAAAQAYANd5
-			BgDC+ycAbeZIAAi6iAAIunEAAHmKAAIAUk9kb20ncyBTcGlyZTpV
-			c2VyczpOb2FoOkRvY3VtZW50czpDdXJyZW50IHByb2plY3RzOkhv
-			bm9yczpEb3VibGVTbGl0OnBhcmFtZXRlcnMucHkADgAcAA0AcABh
-			AHIAYQBtAGUAdABlAHIAcwAuAHAAeQAPABoADABPAGQAbwBtACcA
-			cwAgAFMAcABpAHIAZQASAEVVc2Vycy9Ob2FoL0RvY3VtZW50cy9D
-			dXJyZW50IHByb2plY3RzL0hvbm9ycy9Eb3VibGVTbGl0L3BhcmFt
-			ZXRlcnMucHkAABMAAS8AABUAAgAL//8AAA==
-			</data>
-			<key>FileURL</key>
-			<string>file://localhost/Users/Noah/Documents/Current%20projects/Honors/DoubleSlit/parameters.py</string>
-			<key>RelativePath</key>
-			<string>../DoubleSlit/parameters.py</string>
-			<key>TypeID</key>
-			<string>_CFileLocator</string>
-			<key>Version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>AliasData</key>
-			<data>
-			AAAAAAGgAAIAAAxPZG9tJ3MgU3BpcmUAAAAAAAAAAAAAAAAAAADD
-			UszhSCsAAADXeTkHdXJscy5weQAAAAAAAAAAAAAAAAAAAAAAAAAA
-			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANfI
-			IMoS+mpURVhUAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAABURT
-			V2ViAAAQAAgAAMNTBSEAAAARAAgAAMoTMqoAAAABABgA13k5AML7
-			JwBt5kgACLqIAAi6cQAAeYoAAgBHT2RvbSdzIFNwaXJlOlVzZXJz
-			Ok5vYWg6RG9jdW1lbnRzOkN1cnJlbnQgcHJvamVjdHM6SG9ub3Jz
-			OkRTV2ViOnVybHMucHkAAA4AEAAHAHUAcgBsAHMALgBwAHkADwAa
-			AAwATwBkAG8AbQAnAHMAIABTAHAAaQByAGUAEgA6VXNlcnMvTm9h
-			aC9Eb2N1bWVudHMvQ3VycmVudCBwcm9qZWN0cy9Ib25vcnMvRFNX
-			ZWIvdXJscy5weQATAAEvAAAVAAIAC///AAA=
-			</data>
-			<key>FileURL</key>
-			<string>file://localhost/Users/Noah/Documents/Current%20projects/Honors/DSWeb/urls.py</string>
-			<key>RelativePath</key>
-			<string>./urls.py</string>
-			<key>TypeID</key>
-			<string>_CFileLocator</string>
-			<key>Version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>AliasData</key>
-			<data>
-			AAAAAAHCAAIAAAxPZG9tJ3MgU3BpcmUAAAAAAAAAAAAAAAAAAADD
-			UszhSCsAAADXt6sIdmlld3MucHkAAAAAAAAAAAAAAAAAAAAAAAAA
-			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANfI
-			NsoT6dFURVhUAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAACkRv
-			dWJsZVNsaXQAEAAIAADDUwUhAAAAEQAIAADKFCIRAAAAAQAcANe3
-			qwDXeTkAwvsnAG3mSAAIuogACLpxAAB5igACAFNPZG9tJ3MgU3Bp
-			cmU6VXNlcnM6Tm9haDpEb2N1bWVudHM6Q3VycmVudCBwcm9qZWN0
-			czpIb25vcnM6RFNXZWI6RG91YmxlU2xpdDp2aWV3cy5weQAADgAS
-			AAgAdgBpAGUAdwBzAC4AcAB5AA8AGgAMAE8AZABvAG0AJwBzACAA
-			UwBwAGkAcgBlABIARlVzZXJzL05vYWgvRG9jdW1lbnRzL0N1cnJl
-			bnQgcHJvamVjdHMvSG9ub3JzL0RTV2ViL0RvdWJsZVNsaXQvdmll
-			d3MucHkAEwABLwAAFQACAAv//wAA
-			</data>
-			<key>FileURL</key>
-			<string>file://localhost/Users/Noah/Documents/Current%20projects/Honors/DSWeb/DoubleSlit/views.py</string>
-			<key>RelativePath</key>
-			<string>./DoubleSlit/views.py</string>
-			<key>TypeID</key>
-			<string>_CFileLocator</string>
-			<key>Version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>AliasData</key>
-			<data>
-			AAAAAAHGAAIAAAxPZG9tJ3MgU3BpcmUAAAAAAAAAAAAAAAAAAADD
-			UszhSCsAAADXt6sJbW9kZWxzLnB5AAAAAAAAAAAAAAAAAAAAAAAA
-			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANfF
-			BcoT6dFURVhUAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAACkRv
-			dWJsZVNsaXQAEAAIAADDUwUhAAAAEQAIAADKFCIRAAAAAQAcANe3
-			qwDXeTkAwvsnAG3mSAAIuogACLpxAAB5igACAFRPZG9tJ3MgU3Bp
-			cmU6VXNlcnM6Tm9haDpEb2N1bWVudHM6Q3VycmVudCBwcm9qZWN0
-			czpIb25vcnM6RFNXZWI6RG91YmxlU2xpdDptb2RlbHMucHkADgAU
-			AAkAbQBvAGQAZQBsAHMALgBwAHkADwAaAAwATwBkAG8AbQAnAHMA
-			IABTAHAAaQByAGUAEgBHVXNlcnMvTm9haC9Eb2N1bWVudHMvQ3Vy
-			cmVudCBwcm9qZWN0cy9Ib25vcnMvRFNXZWIvRG91YmxlU2xpdC9t
-			b2RlbHMucHkAABMAAS8AABUAAgAL//8AAA==
-			</data>
-			<key>FileURL</key>
-			<string>file://localhost/Users/Noah/Documents/Current%20projects/Honors/DSWeb/DoubleSlit/models.py</string>
-			<key>RelativePath</key>
-			<string>./DoubleSlit/models.py</string>
+			<string>./css/jquery-ui.css</string>
 			<key>TypeID</key>
 			<string>_CFileLocator</string>
 			<key>Version</key>
@@ -276,8 +121,8 @@
 	<key>ToolbarVisible:Noah</key>
 	<true/>
 	<key>ViewSplitterPosition:Noah</key>
-	<real>0.25895953178405762</real>
+	<real>0.19698314368724823</real>
 	<key>WindowFrame:Noah:displays([(0, 0), (1280, 800)])</key>
-	<string>rect(44,5,800,870)</string>
+	<string>rect(44,0,800,1127)</string>
 </dict>
 </plist>

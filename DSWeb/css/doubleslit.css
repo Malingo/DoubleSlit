@@ -1,0 +1,12 @@
+body {
+	background: #fef8e4;
+	font-family: 'Didact Gothic', arial, serif;
+}
+canvas {
+	border: 1.5px solid #8E846B;
+	text-align: center;
+	vertical-align: middle;
+}
+.center-cell { text-align: center; }
+.right-cell { text-align: right; }
+.small { font-size: 75%; }

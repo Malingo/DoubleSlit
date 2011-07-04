@@ -4,130 +4,39 @@
 			Double Slit Simulator
 		</title>
 
-		<script type="text/javascript" src="media/js/jquery-1.5.1.min.js"></script>
-		<script type="text/javascript" src="media/js/jquery-ui-1.8.13.custom.min.js"></script>
-		<link rel="stylesheet" type="text/css" href="media/css/ui-lightness/jquery-ui-1.8.13.custom.css" />
-		<link href='http://fonts.googleapis.com/css?family=Copse' rel='stylesheet' type='text/css'>
-		<style type="text/css">
-			body { font-family: 'Copse', arial, serif; }
-			canvas { border: 1px solid grey; }
-		</style>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/jquery-ui.js"></script>
+		<script type="text/javascript" src="js/doubleslit.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/jquery-ui.css" />
+		<link rel="stylesheet" type="text/css" href="css/doubleslit.css" />
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Didact+Gothic&v1" />
+	</head>
 
-		<script>
-
-			// Parameter constructor:
-
-			function Parameter(min, max, init, units, unitLabel, label) {
-				this.min = min;
-				this.max = max;
-				this.init = init;  // default value
-				this.units = units;
-				this.unitLabel = unitLabel;
-				this.label = label;
-				this.slider = null;
-				this.textbox = null;
-				}
-				Parameter.prototype.addSlider = function(slider) {
-					this.slider = slider;
-				}
-				Parameter.prototype.getValue = function() {
-					return this.slider.slider("option", "value");
-				}
-				Parameter.prototype.getStep = function() {
-					return (this.max - this.min) / 500;
-				}
-				Parameter.prototype.value = function() {
-					return this.getValue() * this.units;
-				}
-				Parameter.prototype.addTextbox = function(index) {
-					this.textbox = $("#textbox" + index);
-				}
-				Parameter.prototype.setTextbox = function() {
-					this.textbox.html("&nbsp;&nbsp;&nbsp;&nbsp;" + this.getValue() + this.unitLabel);
-			}
-
-			function write() {
-				var p = 1e-12;
-				var m = 9.10938188e-31;
-				var c = 299792458.0;
-				var n = 5;
-
-				var controls = [
-				                   new Parameter(1.0e-38, 1.0,  0.5, p, " pm",                    "Width of slits"),
-				                   new Parameter(1.0e-38, 10.0, 5.0, p, " pm",                    "Distance between slits"),
-				                   new Parameter(0.01,    10.0, 1.0, m, "<em>m<sub>e</sub></em>", "Mass of particles"),
-				                   new Parameter(0.0,     1.0,  0.8, c, "<em>c</em>",             "Velocity of particles"),
-				                   new Parameter(-1.0,    1.0,  0.0, 1, " T/m<sup>2</sup>",       "B-flux through solenoid")
-				               ];
-
-				var table = document.getElementById("sliderTable");
-				table.innerHTML = "";
-				for (var i = 0; i < n; i++) {
-					table.innerHTML += '<tr>';
-					table.innerHTML += '    <td>' + controls[i].label + ':&nbsp;&nbsp;&nbsp;&nbsp;</td>';
-					table.innerHTML += '    <td width="300"><div class="slider" id="slide' + i + '"></div></td>';
-					table.innerHTML += '    <td" id="textbox' + i + '"></td>';
-					table.innerHTML += '</tr>';
-				}
-
-				$(".slider").slider();
-				for (var i = 0; i < n; i++) {
-					controls[i].addTextbox(i);
-					controls[i].addSlider($("#slide" + i).slider("widget"));
-					$("#slide" + i).slider("option", {   "range": "min",
-					                                   "animate": "slow",
-					                                       "min": controls[i].min,
-					                                       "max": controls[i].max,
-					                                     "value": controls[i].init,
-					                                      "step": controls[i].getStep() });
-					controls[i].setTextbox();
-				}
-
-				draw(n, controls);
-			}
-
-			function draw(n, controls) {
-				var hbar = 6.62606896e-34 / (2 * Math.PI);
-				var q = 1.602176e-19;
-
-				var a = controls[0].value();
-				var b = controls[1].value();
-				var m = controls[2].value();
-				var v = controls[3].value();
-				var f = controls[4].value();
-
-				var k = m * v / hbar;
-
-				var data = [];
-				for (var i = 0; i < 500; i++) {
-
-					var x = (i - 250) * (Math.PI / 250);
-					var u = (a * k / 2) * (x - f);
-					var v = (b / a) * u;
-					var y = Math.pow(Math.sin(u) / u, 2) * Math.pow(Math.cos(v), 2);
-
-					data[i] = [i, 300 * (1 - y)];
-				}
-
-				var canvas = document.getElementById('graph');
-				if (canvas.getContext) {
-					var graph = canvas.getContext('2d');
-					graph.beginPath();
-					graph.moveTo(data[0][0], data[0][1]);
-					for (var i = 1; i < 500; i++) {
-						graph.lineTo(data[i][0], data[i][1])
-					}
-					graph.stroke();
-				}
-
-			}
-	</script>
-
-	<body onload="write(); ">
+	<body onload="write();">
 
 		<center>
-			<canvas id="graph" width="500" height="300"></canvas>
-			<table id="sliderTable"></table>
+			<h1>
+				Double Slit Simulator
+			</h1>
+			<p>
+				<canvas id="graph" width="600" height="350">
+				</canvas>
+				<br />
+				<table class="small" id="xAxisTable"></table>
+			</p>
+			<p>
+				<table id="sliderTable"></table>
+			</p>
+			<br />
+			<p class="small">
+				If you don't see a graph in the box above, then your current browser does not
+				support the Double Slit simulator. Please upgrade to the latest version of
+				<a href="http://www.google.com/chrome/">Google Chrome</a>,
+				<a href="http://windows.microsoft.com/en-US/internet-explorer/downloads/ie">Internet Explorer</a>,
+				<a href="http://www.mozilla.com/en-US/firefox/new/">Mozilla Firefox</a>,
+				<a href="http://www.opera.com/download/">Opera</a>, or
+				<a href="http://www.apple.com/safari/download/">Safari</a>.
+			</p>
 		</center>
 
 	</body>

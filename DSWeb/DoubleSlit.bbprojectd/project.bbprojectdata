@@ -15,37 +15,13 @@
 				<string>190FE50C-B789-42CB-A122-01C2865133EA</string>
 			</array>
 		</dict>
-		<dict>
-			<key>CollectionID</key>
-			<string>07E38067-8F4C-431E-85C7-74321493F407</string>
-			<key>CollectionItems</key>
-			<array>
-				<string>DC8F880D-0B48-4208-9E20-AF17B9336C1B</string>
-				<string>7FE16AA0-C558-4799-B6AB-33B3A2AD58CF</string>
-				<string>3C83816A-FF79-401B-A2D2-C4C6C555A0F6</string>
-				<dict>
-					<key>CollectionID</key>
-					<string>3C3E92F8-291D-4A67-91B3-422D38180814</string>
-					<key>CollectionItems</key>
-					<array>
-						<string>353EBE5A-08B3-478F-A907-AA702E2298E6</string>
-					</array>
-				</dict>
-			</array>
-		</dict>
 		<string>A327957D-96FE-4756-8250-41901E94A805</string>
+		<string>AE2D0E1E-DD3B-4089-B342-6DD040CC94B9</string>
+		<string>6A54AB75-BA6B-46CD-ABD9-B147F2B3A71A</string>
+		<string>D48756DA-5CCC-41E1-9AD6-52FBA5C0E592</string>
 	</array>
 	<key>ProjectItems</key>
 	<dict>
-		<key>07E38067-8F4C-431E-85C7-74321493F407</key>
-		<dict>
-			<key>ItemData</key>
-			<array/>
-			<key>ItemName</key>
-			<string>Django</string>
-			<key>ItemType</key>
-			<string>StaticCollection</string>
-		</dict>
 		<key>190FE50C-B789-42CB-A122-01C2865133EA</key>
 		<dict>
 			<key>ItemData</key>
@@ -78,87 +54,6 @@
 			</dict>
 			<key>ItemName</key>
 			<string>interface.py</string>
-			<key>ItemType</key>
-			<string>FileReference</string>
-		</dict>
-		<key>353EBE5A-08B3-478F-A907-AA702E2298E6</key>
-		<dict>
-			<key>ItemData</key>
-			<dict>
-				<key>AliasData</key>
-				<data>
-				AAAAAAIIAAIAAAxPZG9tJ3MgU3BpcmUAAAAAAAAAAAAA
-				AAAAAADDUr7RSCsAAADXv8wNdGVtcGxhdGUuaHRtbAAA
-				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-				AAAAAAAAAAAAAAAAAAAAANfFosoUVxRURVhUUipjaP//
-				//8AAAkgAAAAAAAAAAAAAAAAAAAACkRvdWJsZVNsaXQA
-				EAAIAADDUwUhAAAAEQAIAADKFJ1kAAAAAQAkANe/zADX
-				v8sA17erANd5OQDC+ycAbeZIAAi6iAAIunEAAHmKAAIA
-				bU9kb20ncyBTcGlyZTpVc2VyczpOb2FoOkRvY3VtZW50
-				czpDdXJyZW50IHByb2plY3RzOkhvbm9yczpEU1dlYjpE
-				b3VibGVTbGl0OnRlbXBsYXRlczpEb3VibGVTbGl0OnRl
-				bXBsYXRlLmh0bWwAAA4AHAANAHQAZQBtAHAAbABhAHQA
-				ZQAuAGgAdABtAGwADwAaAAwATwBkAG8AbQAnAHMAIABT
-				AHAAaQByAGUAEgBgVXNlcnMvTm9haC9Eb2N1bWVudHMv
-				Q3VycmVudCBwcm9qZWN0cy9Ib25vcnMvRFNXZWIvRG91
-				YmxlU2xpdC90ZW1wbGF0ZXMvRG91YmxlU2xpdC90ZW1w
-				bGF0ZS5odG1sABMAAS8AABUAAgAL//8AAA==
-				</data>
-				<key>FileURL</key>
-				<string>file://localhost/Users/Noah/Documents/Current%20projects/Honors/DSWeb/DoubleSlit/templates/DoubleSlit/template.html</string>
-				<key>RelativePath</key>
-				<string>./DoubleSlit/templates/DoubleSlit/template.html</string>
-				<key>TypeID</key>
-				<string>_CFileLocator</string>
-				<key>Version</key>
-				<integer>1</integer>
-			</dict>
-			<key>ItemName</key>
-			<string>template.html</string>
-			<key>ItemType</key>
-			<string>FileReference</string>
-		</dict>
-		<key>3C3E92F8-291D-4A67-91B3-422D38180814</key>
-		<dict>
-			<key>ItemData</key>
-			<array/>
-			<key>ItemName</key>
-			<string>Templates</string>
-			<key>ItemType</key>
-			<string>StaticCollection</string>
-		</dict>
-		<key>3C83816A-FF79-401B-A2D2-C4C6C555A0F6</key>
-		<dict>
-			<key>ItemData</key>
-			<dict>
-				<key>AliasData</key>
-				<data>
-				AAAAAAHCAAIAAAxPZG9tJ3MgU3BpcmUAAAAAAAAAAAAA
-				AAAAAADDUr7RSCsAAADXt6sIdmlld3MucHkAAAAAAAAA
-				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-				AAAAAAAAAAAAAAAAAAAAANe3r8oT28FURVhUAAAAAP//
-				//8AAAkgAAAAAAAAAAAAAAAAAAAACkRvdWJsZVNsaXQA
-				EAAIAADDUwUhAAAAEQAIAADKFCIRAAAAAQAcANe3qwDX
-				eTkAwvsnAG3mSAAIuogACLpxAAB5igACAFNPZG9tJ3Mg
-				U3BpcmU6VXNlcnM6Tm9haDpEb2N1bWVudHM6Q3VycmVu
-				dCBwcm9qZWN0czpIb25vcnM6RFNXZWI6RG91YmxlU2xp
-				dDp2aWV3cy5weQAADgASAAgAdgBpAGUAdwBzAC4AcAB5
-				AA8AGgAMAE8AZABvAG0AJwBzACAAUwBwAGkAcgBlABIA
-				RlVzZXJzL05vYWgvRG9jdW1lbnRzL0N1cnJlbnQgcHJv
-				amVjdHMvSG9ub3JzL0RTV2ViL0RvdWJsZVNsaXQvdmll
-				d3MucHkAEwABLwAAFQACAAv//wAA
-				</data>
-				<key>FileURL</key>
-				<string>file://localhost/Users/Noah/Documents/Current%20projects/Honors/DSWeb/DoubleSlit/views.py</string>
-				<key>RelativePath</key>
-				<string>./DoubleSlit/views.py</string>
-				<key>TypeID</key>
-				<string>_CFileLocator</string>
-				<key>Version</key>
-				<integer>1</integer>
-			</dict>
-			<key>ItemName</key>
-			<string>views.py</string>
 			<key>ItemType</key>
 			<string>FileReference</string>
 		</dict>
@@ -197,6 +92,41 @@
 			<key>ItemType</key>
 			<string>FileReference</string>
 		</dict>
+		<key>6A54AB75-BA6B-46CD-ABD9-B147F2B3A71A</key>
+		<dict>
+			<key>ItemData</key>
+			<dict>
+				<key>AliasData</key>
+				<data>
+				AAAAAAHGAAIAAAxPZG9tJ3MgU3BpcmUAAAAAAAAAAAAA
+				AAAAAADDUszhSCsAAADYXEcOZG91Ymxlc2xpdC5jc3MA
+				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+				AAAAAAAAAAAAAAAAAAAAANjKCsoetvpURVhUUipjaP//
+				//8AAAkgAAAAAAAAAAAAAAAAAAAAA2NzcwAAEAAIAADD
+				UwUhAAAAEQAIAADKHu86AAAAAQAcANhcRwDXeTkAwvsn
+				AG3mSAAIuogACLpxAAB5igACAFJPZG9tJ3MgU3BpcmU6
+				VXNlcnM6Tm9haDpEb2N1bWVudHM6Q3VycmVudCBwcm9q
+				ZWN0czpIb25vcnM6RFNXZWI6Y3NzOmRvdWJsZXNsaXQu
+				Y3NzAA4AHgAOAGQAbwB1AGIAbABlAHMAbABpAHQALgBj
+				AHMAcwAPABoADABPAGQAbwBtACcAcwAgAFMAcABpAHIA
+				ZQASAEVVc2Vycy9Ob2FoL0RvY3VtZW50cy9DdXJyZW50
+				IHByb2plY3RzL0hvbm9ycy9EU1dlYi9jc3MvZG91Ymxl
+				c2xpdC5jc3MAABMAAS8AABUAAgAL//8AAA==
+				</data>
+				<key>FileURL</key>
+				<string>file://localhost/Users/Noah/Documents/Current%20projects/Honors/DSWeb/css/doubleslit.css</string>
+				<key>RelativePath</key>
+				<string>./css/doubleslit.css</string>
+				<key>TypeID</key>
+				<string>_CFileLocator</string>
+				<key>Version</key>
+				<integer>1</integer>
+			</dict>
+			<key>ItemName</key>
+			<string>doubleslit.css</string>
+			<key>ItemType</key>
+			<string>FileReference</string>
+		</dict>
 		<key>7F00F2E7-6375-4B2E-9E38-A4C64369772A</key>
 		<dict>
 			<key>ItemData</key>
@@ -229,40 +159,6 @@
 			</dict>
 			<key>ItemName</key>
 			<string>simulation.py</string>
-			<key>ItemType</key>
-			<string>FileReference</string>
-		</dict>
-		<key>7FE16AA0-C558-4799-B6AB-33B3A2AD58CF</key>
-		<dict>
-			<key>ItemData</key>
-			<dict>
-				<key>AliasData</key>
-				<data>
-				AAAAAAGgAAIAAAxPZG9tJ3MgU3BpcmUAAAAAAAAAAAAA
-				AAAAAADDUr7RSCsAAADXeTkHdXJscy5weQAAAAAAAAAA
-				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-				AAAAAAAAAAAAAAAAAAAAANd5PcoS7FoAAAAAAAAAAP//
-				//8AAAkgAAAAAAAAAAAAAAAAAAAABURTV2ViAAAQAAgA
-				AMNTBSEAAAARAAgAAMoTMqoAAAABABgA13k5AML7JwBt
-				5kgACLqIAAi6cQAAeYoAAgBHT2RvbSdzIFNwaXJlOlVz
-				ZXJzOk5vYWg6RG9jdW1lbnRzOkN1cnJlbnQgcHJvamVj
-				dHM6SG9ub3JzOkRTV2ViOnVybHMucHkAAA4AEAAHAHUA
-				cgBsAHMALgBwAHkADwAaAAwATwBkAG8AbQAnAHMAIABT
-				AHAAaQByAGUAEgA6VXNlcnMvTm9haC9Eb2N1bWVudHMv
-				Q3VycmVudCBwcm9qZWN0cy9Ib25vcnMvRFNXZWIvdXJs
-				cy5weQATAAEvAAAVAAIAC///AAA=
-				</data>
-				<key>FileURL</key>
-				<string>file://localhost/Users/Noah/Documents/Current%20projects/Honors/DSWeb/urls.py</string>
-				<key>RelativePath</key>
-				<string>./urls.py</string>
-				<key>TypeID</key>
-				<string>_CFileLocator</string>
-				<key>Version</key>
-				<integer>1</integer>
-			</dict>
-			<key>ItemName</key>
-			<string>urls.py</string>
 			<key>ItemType</key>
 			<string>FileReference</string>
 		</dict>
@@ -335,6 +231,41 @@
 			<key>ItemType</key>
 			<string>FileReference</string>
 		</dict>
+		<key>AE2D0E1E-DD3B-4089-B342-6DD040CC94B9</key>
+		<dict>
+			<key>ItemData</key>
+			<dict>
+				<key>AliasData</key>
+				<data>
+				AAAAAAG+AAIAAAxPZG9tJ3MgU3BpcmUAAAAAAAAAAAAA
+				AAAAAADDUszhSCsAAADYXg4NZG91Ymxlc2xpdC5qcwAA
+				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+				AAAAAAAAAAAAAAAAAAAAANjJlsoetX5URVhUUipjaP//
+				//8AAAkgAAAAAAAAAAAAAAAAAAAAAmpzABAACAAAw1MF
+				IQAAABEACAAAyh7tvgAAAAEAHADYXg4A13k5AML7JwBt
+				5kgACLqIAAi6cQAAeYoAAgBQT2RvbSdzIFNwaXJlOlVz
+				ZXJzOk5vYWg6RG9jdW1lbnRzOkN1cnJlbnQgcHJvamVj
+				dHM6SG9ub3JzOkRTV2ViOmpzOmRvdWJsZXNsaXQuanMA
+				DgAcAA0AZABvAHUAYgBsAGUAcwBsAGkAdAAuAGoAcwAP
+				ABoADABPAGQAbwBtACcAcwAgAFMAcABpAHIAZQASAENV
+				c2Vycy9Ob2FoL0RvY3VtZW50cy9DdXJyZW50IHByb2pl
+				Y3RzL0hvbm9ycy9EU1dlYi9qcy9kb3VibGVzbGl0Lmpz
+				AAATAAEvAAAVAAIAC///AAA=
+				</data>
+				<key>FileURL</key>
+				<string>file://localhost/Users/Noah/Documents/Current%20projects/Honors/DSWeb/js/doubleslit.js</string>
+				<key>RelativePath</key>
+				<string>./js/doubleslit.js</string>
+				<key>TypeID</key>
+				<string>_CFileLocator</string>
+				<key>Version</key>
+				<integer>1</integer>
+			</dict>
+			<key>ItemName</key>
+			<string>doubleslit.js</string>
+			<key>ItemType</key>
+			<string>FileReference</string>
+		</dict>
 		<key>C66C5C7A-FC43-4858-8933-F1F2EEF2862A</key>
 		<dict>
 			<key>ItemData</key>
@@ -344,38 +275,38 @@
 			<key>ItemType</key>
 			<string>StaticCollection</string>
 		</dict>
-		<key>DC8F880D-0B48-4208-9E20-AF17B9336C1B</key>
+		<key>D48756DA-5CCC-41E1-9AD6-52FBA5C0E592</key>
 		<dict>
 			<key>ItemData</key>
 			<dict>
 				<key>AliasData</key>
 				<data>
-				AAAAAAHGAAIAAAxPZG9tJ3MgU3BpcmUAAAAAAAAAAAAA
-				AAAAAADDUr7RSCsAAADXt6sJbW9kZWxzLnB5AAAAAAAA
+				AAAAAAHCAAIAAAxPZG9tJ3MgU3BpcmUAAAAAAAAAAAAA
+				AAAAAADDUszhSCsAAADYXEcNanF1ZXJ5LXVpLmNzcwAA
 				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-				AAAAAAAAAAAAAAAAAAAAANe+T8oT28FURVhUAAAAAP//
-				//8AAAkgAAAAAAAAAAAAAAAAAAAACkRvdWJsZVNsaXQA
-				EAAIAADDUwUhAAAAEQAIAADKFCIRAAAAAQAcANe3qwDX
-				eTkAwvsnAG3mSAAIuogACLpxAAB5igACAFRPZG9tJ3Mg
-				U3BpcmU6VXNlcnM6Tm9haDpEb2N1bWVudHM6Q3VycmVu
-				dCBwcm9qZWN0czpIb25vcnM6RFNXZWI6RG91YmxlU2xp
-				dDptb2RlbHMucHkADgAUAAkAbQBvAGQAZQBsAHMALgBw
-				AHkADwAaAAwATwBkAG8AbQAnAHMAIABTAHAAaQByAGUA
-				EgBHVXNlcnMvTm9haC9Eb2N1bWVudHMvQ3VycmVudCBw
-				cm9qZWN0cy9Ib25vcnMvRFNXZWIvRG91YmxlU2xpdC9t
-				b2RlbHMucHkAABMAAS8AABUAAgAL//8AAA==
+				AAAAAAAAAAAAAAAAAAAAANjNvMoelCAAAAAAAAAAAP//
+				//8AAAkgAAAAAAAAAAAAAAAAAAAAA2NzcwAAEAAIAADD
+				UwUhAAAAEQAIAADKHsxgAAAAAQAcANhcRwDXeTkAwvsn
+				AG3mSAAIuogACLpxAAB5igACAFFPZG9tJ3MgU3BpcmU6
+				VXNlcnM6Tm9haDpEb2N1bWVudHM6Q3VycmVudCBwcm9q
+				ZWN0czpIb25vcnM6RFNXZWI6Y3NzOmpxdWVyeS11aS5j
+				c3MAAA4AHAANAGoAcQB1AGUAcgB5AC0AdQBpAC4AYwBz
+				AHMADwAaAAwATwBkAG8AbQAnAHMAIABTAHAAaQByAGUA
+				EgBEVXNlcnMvTm9haC9Eb2N1bWVudHMvQ3VycmVudCBw
+				cm9qZWN0cy9Ib25vcnMvRFNXZWIvY3NzL2pxdWVyeS11
+				aS5jc3MAEwABLwAAFQACAAv//wAA
 				</data>
 				<key>FileURL</key>
-				<string>file://localhost/Users/Noah/Documents/Current%20projects/Honors/DSWeb/DoubleSlit/models.py</string>
+				<string>file://localhost/Users/Noah/Documents/Current%20projects/Honors/DSWeb/css/jquery-ui.css</string>
 				<key>RelativePath</key>
-				<string>./DoubleSlit/models.py</string>
+				<string>./css/jquery-ui.css</string>
 				<key>TypeID</key>
 				<string>_CFileLocator</string>
 				<key>Version</key>
 				<integer>1</integer>
 			</dict>
 			<key>ItemName</key>
-			<string>models.py</string>
+			<string>jquery-ui.css</string>
 			<key>ItemType</key>
 			<string>FileReference</string>
 		</dict>
